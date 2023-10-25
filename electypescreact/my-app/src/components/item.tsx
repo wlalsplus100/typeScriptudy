@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import styled, { ShouldForwardProp } from "styled-components";
-import { WeaponsType } from "../types/types";
+import React from "react";
+import styled from "styled-components";
+import { WeaponsType } from "../constant/types";
 
 const Item = ({ data }: { data: WeaponsType }) => {
   const colorPeek = () => {

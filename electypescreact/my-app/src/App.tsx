@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import "./App.css";
-import { WeaponsType } from "./types/types";
+import { WeaponsType } from "./constant/types";
 import Item from "./components/item";
 import DataFetchingComponent from "./components/DataFatching/dataFatchingComponent";
 import LoadingContainer from "./components/Loading/loading";

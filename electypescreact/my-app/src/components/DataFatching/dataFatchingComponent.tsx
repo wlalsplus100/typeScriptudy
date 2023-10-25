@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import axios from "axios";
-import { WeaponsType } from "../../types/types";
+import { WeaponsType } from "../../constant/types";
 
 interface DataFetchingComponentProps {
   onDataFetched: (data: WeaponsType[]) => void;
