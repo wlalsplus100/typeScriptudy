@@ -1,9 +1,17 @@
 {
   "name": "justTypescript",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "todos.ts",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.2.2"
-  }
+    "typescript": "^5.2.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "@types/redux": "^3.6.0",
+    "redux": "^5.0.0",
+    "ts-loader": "^9.5.0"
+  },
+  "type": "module"
 }
